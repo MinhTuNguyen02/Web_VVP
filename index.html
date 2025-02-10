@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
@@ -15,14 +16,15 @@
                 <div class="container">
                     <div class="logo">
                         <a href="#" class="logo-link">
-                            <picture>
-                                <img src="./assets/img/logo.png" alt="">
-                            </picture>
+                            
                         </a>
                     </div>
 
                     <div class="search">
-                        <form action=""></form>
+                        <form class="header-search" role="search">
+                            <input class="" type="hidden" name="type" placeholder="Tìm kiếm sản phẩm..." autocomplete="off">
+                        </form>
+                        <button type="submit" aria-label="Tìm"></button>
                     </div>
                 </div>
             </div>
