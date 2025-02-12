@@ -13,6 +13,11 @@ html{
     box-sizing: border-box;
 }
 
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
 .grid{
     width: 1200px;
     max-width: 100%;
